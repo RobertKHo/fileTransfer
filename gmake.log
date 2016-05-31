@@ -1,0 +1,2 @@
+g++ -g -O0 -Wall -Wextra -std=gnu++11 -c cix-server.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++11 -o cix-server cix-server.o sockets.o signal_action.o cix_protocol.o
